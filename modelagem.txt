@@ -1,0 +1,20 @@
+-> EDCare
+    - Lista de idosos (Lista_I);
+        -> Idoso:
+            - Nome (char*)
+            - Temperatua momentânea (Double);
+            - Latitude (Double);
+            - Longitude (Double);
+            - Caiu ou não (Int);
+            - Quantidade de febres baixas em sequência (Int), pra ajudar depois
+            - Uma lista de amigos de outros idoso (Lista_I);
+            - Lista de cuidadores (Lista_C);
+                -> Cuidador:
+                    - Nome (char*);
+                    - Latitude (Double);
+                    - Longitude (Double);
+
+-> Dois tipos de listas (e células) diferentes
+    - Uma para idoso e outra para cuidador;
+    - Funções básicas parecidas;
+    - ??Simplesmente encadeadas ou duplamente encadeadas??
